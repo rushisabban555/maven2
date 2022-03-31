@@ -15,7 +15,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BaseTest {
 	public  static WebDriver driver;
 	String url1;
-	
+	//this is base test
 	@BeforeSuite
 	public void inialization() throws IOException {
 		
